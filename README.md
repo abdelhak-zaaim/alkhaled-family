@@ -13,7 +13,7 @@ sudo apt install nginx</code></pre>
         <li>
             <h2>Clone the GitHub Repository</h2>
             <p>Clone the GitHub repository containing your website:</p>
-            <pre><code>git clone https://github.com/abdelhak-zaaim/al_amarah.git</code></pre>
+            <pre><code>git clone https://github.com/abdelhak-zaaim/www.alkhaledfamily.com.git</code></pre>
         </li>
         <li>
             <h2>Move Website Files</h2>
