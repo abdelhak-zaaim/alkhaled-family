@@ -1,0 +1,290 @@
+/*
+	Theme Name: Al-Khaled Family
+	Description: Al-Khaled Family Theme
+	Author: Dhari Al-Khaled
+	Version: 2.0
+    Tags: al-khaled, kuwait
+*/
+
+@import url(https://fonts.googleapis.com/earlyaccess/droidarabickufi.css);
+/* font-family: 'Droid Arabic Kufi', serif; */
+
+@import url(https://fonts.googleapis.com/earlyaccess/droidarabicnaskh.css);
+/* font-family: 'Droid Arabic Naskh', serif; */
+
+@font-face {
+    font-family: AmiriWeb;
+    font-style: normal;
+    font-weight: 400;
+    src: url('amiri/amiri-regular.eot?') format('eot'),
+         url('amiri/amiri-regular.woff2') format('woff2'),
+         url('amiri/amiri-regular.woff') format('woff'),
+         url('amiri/amiri-regular.ttf')  format('truetype');
+}
+
+@font-face {
+    font-family: AmiriWeb;
+    font-style: normal;
+    font-weight: 700;
+    src: url('amiri/amiri-bold.eot?') format('eot'),
+         url('amiri/amiri-bold.woff2') format('woff2'),
+         url('amiri/amiri-bold.woff') format('woff'),
+         url('amiri/amiri-bold.ttf')  format('truetype');
+}
+
+body {
+	direction:rtl;
+	font-family:Tahoma,Geneva, Arial, Helvetica, sans-serif;
+	font-size:14px;
+	background-image:url(images/bg_02.jpg);
+	background-repeat:repeat-x;
+	background-position:center top;
+	background-color:#FFFFFF;
+}
+
+h2 {
+	/*font-family:Verdana,Geneva, Arial, Helvetica, sans-serif;*/
+	font-family: 'Droid Arabic Kufi', Verdana,Geneva, Arial, Helvetica, sans-serif;
+	font-size:24px;
+	font-weight:bold;
+	color: #A37A1F;
+	border-bottom: 1px solid #D68533;
+	padding: 0px 0px 10px 0px;
+}
+
+p > strong {
+	color: #1e365b;
+}
+
+#header {
+	display:block;
+	height:200px;
+	margin:20px 0px 0px 0px;
+	overflow:hidden;
+}
+
+#content {
+	/*min-height:350px;*/
+	/* min-height:700px; */
+	/* min-height:620px; */
+	min-height:680px;
+	margin:0px 10px 0px 10px;
+	/*border:1px solid #FF0000;*/
+}
+
+#footer {
+	display:block;
+	height:50px;
+	/* margin:10px 0px 50px 0px; */
+	margin:10px 0px 0px 0px;
+	padding: 10px 0px 10px 0px;
+	text-align:center;
+	/* background-color:#472400; */
+	background-color:#1e365b;
+	color: #FFEBCC;
+	border-top: 3px solid #D68533;
+}
+
+#menu {
+	display:block;
+	/*height:150px;*/
+	margin:0px 0px 0px 0px;
+	list-style: none;
+}
+
+#menu a {
+	display:block;
+	/* width:205px; */
+	width:207px;
+	/* height:20px; */
+	height:24px;
+	margin:0px 0px 4px 0px;
+	padding: 4px 4px 4px 4px;
+	text-decoration: none;
+	/*font-family: verdana;*/
+	font-family: 'Droid Arabic Kufi', Verdana,Geneva, Arial, Helvetica, sans-serif;
+	/*font-weight: bold;*/
+	font-weight: normal;
+	font-size: 16px;
+	/* color: #A37A1F; */
+	color: #FFFFFF;
+	/*background-color:#FFEBCC;*/
+	background-color:#325a96;
+	border-right: 5px solid #D68533;
+	border-bottom: 1px solid #FFEBCC;
+}
+
+#menu a:hover {
+	/* background-color:#D68533; */
+	/* background-color:#325a96; */
+	/* background-color:#FFFFFF; */
+	background-color:#1e365b;
+	color: #D68533;
+	/* color: #A37A1F; */
+	/* border-right: 5px solid #472400; */
+	/* border-right: 5px solid #1e365b; */ 
+	border-right: 5px solid #A37A1F;
+	border-bottom: 1px solid #A37A1F;
+	/* border-top: 1px solid #A37A1F; */
+	/* border-left: 1px solid #A37A1F; */
+}
+
+#title_image {
+	margin:0px 10px 0px 0px;	
+}
+
+#search input[type=text]{
+	height:30px;
+	width:170px;
+	margin:20px 0px 0px 10px;
+	padding:0px 10px 0px 20px;
+
+	background-color:transparent;
+	background-image:url(images/bg_search_02.jpg);
+	background-repeat:repeat-x;
+	background-position:center top;
+	border: 0px solid #FF0000;	
+}
+
+#search input[type=submit]{
+	display: none;
+	height:20px;
+	margin:10px -4px 0px 0px;
+	background-color:#D68533;
+	color: #FFFFFF;
+	border: 0px solid #472400;	
+}
+
+.social {
+	display: block;
+	margin: 0px 0px 0px 10px;
+	float: left;
+}
+
+.social a img {
+	display: block;
+	width: 30px;
+	height: 30px;
+	margin: 20px 0px 0px 10px;
+	float: left;
+}
+
+.front_page_box {
+	display:block;
+	height:170px;
+	text-align:center;
+	background-color:#CCCCCC;
+}
+
+.border {
+	border-right:1px solid #D68533;
+}
+
+/* ===[START]=== Image Overlay Caption ============================== */
+div.wrapper{  
+	float:left; /* important */  
+	position:relative; /* important(so we can absolutely position the description div */  
+}  
+div.description{  
+	position:absolute; /* absolute position (so we can position it where we want)*/  
+	bottom:0px; /* position will be on bottom */  
+	left:0px;  
+	width:100%;  
+	/* styling bellow */  
+	/* background-color:#472400;  */
+	background-color:#1e365b;  
+	font-family: 'tahoma';  
+	font-size:15px;  
+	font-weight:bold;  
+	color:white;  
+	opacity:0.75; /* transparency */  
+	filter:alpha(opacity=75); /* IE transparency */  
+}  
+p.description_content{  
+	font-family: 'Droid Arabic Kufi', Verdana,Geneva, Arial, Helvetica, sans-serif;
+	padding:10px;  
+	margin:0px;  
+}  
+/* ===[END]=== Image Overlay Caption ============================== */
+
+
+.gallery {
+	margin: auto;
+}
+.gallery .gallery-item {
+	float: right;
+	margin-top: 10px;
+	text-align: center;
+	width: 25%;
+}
+.gallery img {
+	/*border: 2px solid #cfcfcf;*/
+	border: 1px solid #cfcfcf;
+}
+.gallery .gallery-caption {
+	margin-left: 0;
+} 
+
+.container_all {
+	padding: 0px 10px 0px 10px;
+}
+
+
+/* ===[START]=== Pagination ============================== */
+/*.pagination {*/
+.pagination_01 {
+clear:both;
+padding:20px 0;
+position:relative;
+font-size:11px;
+line-height:13px;
+float:right;
+font-weight:bold;
+}
+ 
+/*.pagination span, .pagination a {*/
+.pagination_01 div, .pagination_01 a {
+display:block;
+/*float:left;*/
+float:right;
+margin: 2px 2px 2px 0;
+/*padding:6px 9px 5px 9px;*/
+padding:10px 10px 10px 12px;
+text-decoration:none;
+width:auto;
+color:#fff;
+/*background: #555;*/
+background: #325a96;
+}
+ 
+/*.pagination a:hover{*/
+.pagination_01 a:hover{
+/*color:#fff;*/
+color:#D68533;
+/*background: #3279BB;*/
+background: #1e365b;
+}
+ 
+/*.pagination .current{*/
+.pagination_01 .current{
+/*padding:6px 9px 5px 9px;*/
+padding:10px 10px 10px 12px;
+/*background: #3279BB;*/
+background: #D68533;
+color:#fff;
+}/* ===[END]=== Pagination ============================== */
+
+
+
+/* ===[START]=== Slideshow ============================== */
+.slideshow_title a {
+    font-family: 'Droid Arabic Kufi', Verdana,Geneva, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.slideshow_container_style-light .slideshow_description_box {
+    background: #1e365b !important;
+    width: 100%;
+}
+/* ===[END]=== Image Overlay Caption ============================== */
+
+
